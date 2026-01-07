@@ -5,28 +5,28 @@ Smart Assistant AM-Agent is a comprehensive GenAI dashboard designed to streamli
 
 **Key Features**
 
-    Smart Planning Agent: Generates a chronological daily itinerary (Morning, Afternoon, Evening) by intelligently cross-referencing weather forecasts, local events, and tourist attractions.
+Smart Planning Agent: Generates a chronological daily itinerary (Morning, Afternoon, Evening) by intelligently cross-referencing weather forecasts, local events, and tourist attractions.
 
-    Conversational Weather Reports: Converts complex JSON data from the OpenWeather API into a friendly report that includes practical clothing and gear suggestions (e.g., suggesting an umbrella if rain is forecasted).
+Conversational Weather Reports: Converts complex JSON data from the OpenWeather API into a friendly report that includes practical clothing and gear suggestions (e.g., suggesting an umbrella if rain is forecasted).
 
-    AI News Summarizer: Fetches the latest headlines based on your specific interests (e.g., Tech, Sports) and provides "clear and crisp" summaries for quick reading.
+AI News Summarizer: Fetches the latest headlines based on your specific interests (e.g., Tech, Sports) and provides "clear and crisp" summaries for quick reading.
 
-    Real-Time Event Discovery: Integrates with SerpApi to find local events happening in your city, including venues and direct ticket links.
+Real-Time Event Discovery: Integrates with SerpApi to find local events happening in your city, including venues and direct ticket links.
 
-    Morning Inspiration: Features a dedicated home page with motivational quotes and refreshing imagery to start your day on a positive note.
+Morning Inspiration: Features a dedicated home page with motivational quotes and refreshing imagery to start your day on a positive note.
 
 **Tech Stack**
 
-    Frontend: Streamlit
+Frontend: Streamlit
 
-    LLM: Google Gemini 2.5 Flash & 2.5 Flash-Lite
+LLM: Google Gemini 2.5 Flash & 2.5 Flash-Lite
 
-    External APIs:
+External APIs:
 
-        OpenWeather API: Real-time weather data.
+- OpenWeather API: Real-time weather data.
 
-        NewsAPI: Global news headlines.
+- NewsAPI: Global news headlines.
 
-        SerpApi: Google Search and Google Events data.
+- SerpApi: Google Search and Google Events data.
 
-        Google Search Grounding: Used for forecasted weather and tourist recommendations.
+- Google Search Grounding: Used for forecasted weather and tourist recommendations.
